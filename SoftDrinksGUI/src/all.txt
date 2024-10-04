@@ -1,0 +1,51 @@
+Coca-Cola Zero 0
+Fanta Citrom 13,33
+Fanta Citrom Light 8
+Mountain-Dew Citrus 0
+Pepsi Max 0
+Coca-Cola Cherry 0
+Sprite Light 0
+Mountain-Dew Code Red 0
+Schweppes Ginger Ale 5
+Tropicana Alma 45
+Coca-Cola Vanilla 0
+Pepsi Max Light 0
+Fanta Grape 12
+7Up Lemon 0
+Pepsi Twist 0
+Mountain-Dew Voltage 0
+Coca-Cola Lime 0
+Sprite Cranberry 0
+Pepsi Wild Cherry 0
+Schweppes Bitter Lemon 5
+Tropicana Mangó 50
+Mountain-Dew White Out 0
+Coca-Cola Energy 0
+Fanta Ananász 10
+7Up Mojito 8,75
+Sprite Tropical 0
+Schweppes Tonic Water 5
+Tropicana Narancs-Mangó 50
+Pepsi Lime 0
+Mountain-Dew Livewire 0
+Fanta Eper 15
+Coca-Cola Light 0
+7Up Cherry 0
+Sprite Zero Sugar 0
+Pepsi Blue 0
+Schweppes Club Soda 5
+Tropicana Narancs-Eper 50
+Mountain-Dew Baja Blast 0
+Coca-Cola Zero Sugar 0
+Fanta Málna 12
+Lipton Green Tea 0
+7Up Free Lime 0
+Sprite Ginger 23,33
+Pepsi Vanilla 0
+Schweppes Tonic Zero 5
+Tropicana Narancs-Ananász 50
+Mountain-Dew Pitch Black 0
+Coca-Cola Cherry Zero 0
+Fanta Lime 10
+Lipton Peach Tea 0
+7U

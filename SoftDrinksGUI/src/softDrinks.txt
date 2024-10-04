@@ -1,0 +1,106 @@
+üdítő neve;benne levő édesítő anyag ;üdítő literenkénti ára (Ft);csomagolás típusa ;gyümölcstartalom százalékban;csomagolás egysége szállításhoz 
+Coca-Cola Zero;aszpartám;240;doboz;0;24
+Fanta Citrom;cukor;310;PET palack;8;12
+Fanta Citrom;glükóz-fruktóz szirup;300;PET palack;12;12
+Fanta Citrom;fruktóz;290;PET palack;20;12
+Fanta Citrom Light;stevia;320;PET palack;8;12
+Mountain-Dew Citrus;glükóz-fruktóz szirup;250;PET palack;0;12
+Pepsi Max;cukor;260;üvegpalack;0;6
+Coca-Cola Cherry;glükóz-fruktóz szirup;260;doboz;0;24
+Sprite Light;szukralóz;270;doboz;0;24
+Mountain-Dew Code Red;glükóz-fruktóz szirup;270;PET palack;0;12
+Schweppes Ginger Ale;fruktóz;330;üvegpalack;5;6
+Tropicana Alma;fruktóz;360;Tetra Pak;45;12
+Coca-Cola Vanilla;glükóz-fruktóz szirup;270;doboz;0;24
+Pepsi Max Light;aszpartám;280;üvegpalack;0;6
+Fanta Grape;cukor;320;PET palack;12;12
+7Up Lemon;szacharóz;280;doboz;0;24
+Pepsi Twist;szacharóz;280;üvegpalack;0;6
+Mountain-Dew Voltage;glükóz-fruktóz szirup;280;PET palack;0;12
+Coca-Cola Lime;glükóz-fruktóz szirup;280;doboz;0;24
+Sprite Cranberry;aszpartám;290;doboz;0;24
+Pepsi Wild Cherry;szacharóz;290;üvegpalack;0;6
+Schweppes Bitter Lemon;fruktóz;340;üvegpalack;5;6
+Tropicana Mangó;fruktóz;370;Tetra Pak;50;12
+Mountain-Dew White Out;glükóz-fruktóz szirup;290;PET palack;0;12
+Coca-Cola Energy;glükóz-fruktóz szirup;290;doboz;0;24
+Fanta Ananász;cukor;330;PET palack;10;12
+Sprite Cranberry;stevia;291;doboz;0;24
+Sprite Cranberry;szacharóz;292;doboz;0;24
+7Up Mojito;szukralóz;300;doboz;10;24
+7Up Mojito;szukralóz;301;doboz;20;24
+7Up Mojito;szukralóz;302;doboz;5;24
+7Up Mojito;szukralóz;303;doboz;0;24
+Sprite Tropical;aszpartám;300;doboz;0;24
+Schweppes Tonic Water;fruktóz;350;üvegpalack;5;6
+Tropicana Narancs-Mangó;fruktóz;380;Tetra Pak;50;12
+Pepsi Lime;szacharóz;300;üvegpalack;0;6
+Mountain-Dew Livewire;glükóz-fruktóz szirup;300;PET palack;0;12
+Fanta Eper;cukor;340;PET palack;15;12
+Coca-Cola Light;glükóz-fruktóz szirup;300;doboz;0;24
+7Up Cherry;szukralóz;310;doboz;0;24
+Sprite Zero Sugar;aszpartám;310;doboz;0;24
+Pepsi Blue;szacharóz;310;üvegpalack;0;6
+Schweppes Club Soda;fruktóz;360;üvegpalack;5;6
+Tropicana Narancs-Eper;fruktóz;390;Tetra Pak;50;12
+Mountain-Dew Baja Blast;glükóz-fruktóz szirup;310;PET palack;0;12
+Coca-Cola Zero Sugar;glükóz-fruktóz szirup;310;doboz;0;24
+Fanta Málna;cukor;350;PET palack;12;12
+Lipton Green Tea;szukralóz;320;PET palack;0;12
+7Up Free Lime;szukralóz;320;doboz;0;24
+Sprite Ginger;aszpartám;320;doboz;5;24
+Sprite Ginger;aszpartám;321;doboz;50;24
+Sprite Ginger;aszpartám;322;doboz;15;24
+Pepsi Vanilla;szacharóz;320;üvegpalack;0;6
+Schweppes Tonic Zero;fruktóz;370;üvegpalack;5;6
+Tropicana Narancs-Ananász;fruktóz;400;Tetra Pak;50;12
+Mountain-Dew Pitch Black;glükóz-fruktóz szirup;320;PET palack;0;12
+Coca-Cola Cherry Zero;glükóz-fruktóz szirup;320;doboz;0;24
+Fanta Lime;cukor;360;PET palack;10;12
+Lipton Peach Tea;szukralóz;330;PET palack;0;12
+7Up Cherry Free;szukralóz;330;doboz;0;24
+Sprite Mint;aszpartám;330;doboz;0;24
+Pepsi Twist Lemon;szacharóz;330;üvegpalack;0;6
+Schweppes Ginger Ale Zero;fruktóz;380;üvegpalack;5;6
+Tropicana Narancs-Lime;fruktóz;410;Tetra Pak;50;12
+Mountain-Dew Frost Bite;glükóz-fruktóz szirup;330;PET palack;0;12
+Coca-Cola Vanilla Zero;glükóz-fruktóz szirup;330;doboz;0;24
+Fanta Passion Fruit;cukor;370;PET palack;12;12
+Lipton Lemon Tea;szukralóz;340;PET palack;5;12
+Lipton Lemon Tea;szukralóz;341;PET palack;10;12
+Lipton Lemon Tea;szukralóz;342;PET palack;15;12
+Lipton Lemon Tea;szukralóz;343;PET palack;12;12
+Lipton Lemon Tea;szukralóz;344;PET palack;0;12
+7Up Mojito Free;szukralóz;340;doboz;0;24
+Sprite Lemon;aszpartám;340;doboz;0;24
+Pepsi Twist Lime;szacharóz;340;üvegpalack;0;6
+Schweppes Tonic Lime;fruktóz;390;üvegpalack;5;6
+Tropicana Narancs-Grapefruit;fruktóz;420;Tetra Pak;50;12
+Mountain-Dew Ice;glükóz-fruktóz szirup;340;PET palack;0;12
+Coca-Cola Energy Zero;glükóz-fruktóz szirup;340;doboz;0;24
+Fanta Grapefruit;cukor;380;PET palack;10;12
+Lipton Raspberry Tea;szukralóz;350;PET palack;0;12
+7Up Free Mint;szukralóz;350;doboz;0;24
+Sprite Zero Lime;aszpartám;350;doboz;0;24
+Pepsi Twist Cherry;szacharóz;350;üvegpalack;0;6
+Schweppes Tonic Grapefruit;fruktóz;400;üvegpalack;5;6
+Tropicana Narancs-Citrom;fruktóz;430;Tetra Pak;50;12
+Mountain-Dew Game Fuel;glükóz-fruktóz szirup;350;PET palack;0;12
+Lipton Hibiscus Tea;szukralóz;360;PET palack;0;12
+Fanta Lemon;cukor;390;PET palack;12;12
+7Up Free Grapefruit;szukralóz;360;doboz;0;24
+Sprite Zero Cherry;aszpartám;360;doboz;0;24
+Pepsi Twist Mint;szacharóz;360;üvegpalack;0;6
+Lipton Mint Tea;szukralóz;370;PET palack;0;12
+Schweppes Tonic Lemon;fruktóz;410;üvegpalack;5;6
+Tropicana Narancs-Kiwi;fruktóz;440;Tetra Pak;50;12
+7Up Free Lemon;szukralóz;370;doboz;0;24
+Sprite Zero Mint;aszpartám;370;doboz;0;24
+Fanta Apple;cukor;400;PET palack;10;12
+Lipton Lemon-Mint Tea;szukralóz;380;PET palack;0;12
+7Up Free Apple;szukralóz;380;doboz;0;24
+Lipton Peach-Ginger Tea;szukralóz;390;PET palack;0;12
+Lipton Lemon-Ginger Tea;szukralóz;400;PET palack;0;12
+Schweppes Tonic Apple;fruktóz;420;üvegpalack;5;6
+Tropicana Narancs-Málna;fruktóz;450;Tetra Pak;50;12
+Lipton Peach-Ginger Tea;szukralóz;410;PET palack;0;12
