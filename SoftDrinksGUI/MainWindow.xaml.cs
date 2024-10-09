@@ -24,7 +24,7 @@ namespace SoftDrinksGUI
 
             drinks = new List<Drink>();
 
-            StreamReader srSoftDrinks = new(@"..\..\..\src\softDrinks.txt");
+            using StreamReader srSoftDrinks = new(@"..\..\..\src\softDrinks.txt");
 
             _ = srSoftDrinks.ReadLine();
 
@@ -37,7 +37,9 @@ namespace SoftDrinksGUI
             //4
             Random r = new Random();
 
-            lblRecommendation.Content += $" {drinks[r.Next(drinks.Count)].DrinkName}";
+            var sugaryDrinks = drinks.Where(d => d.Sweetener == "cukor").ToList();
+
+            lblRecommendation.Content += $" {sugaryDrinks[r.Next(sugaryDrinks.Count)].DrinkName}";
 
             //5
 
@@ -47,11 +49,11 @@ namespace SoftDrinksGUI
 
             //6
 
-            lblHowManyManufacturersToChooseFrom.Content = $"{drinks.GroupBy(d => d.DrinkName.Split(" ")[0]).Count()} különböző termék típusunk van.";
+            lblHowManyManufacturersToChooseFrom.Content = $"{drinks.GroupBy(d => d.BrandName).Count()} féle gyártó termékei közül választhatnak!";
 
             //7
 
-            StreamWriter swAll = new(@"..\..\..\src\all.txt");
+            using StreamWriter swAll = new(@"..\..\..\src\all.txt");
 
             var f7 = drinks.GroupBy(d => d.DrinkName);
 
@@ -62,7 +64,7 @@ namespace SoftDrinksGUI
 
             //8
 
-            StreamWriter swSweetening = new(@"..\..\..\src\sweetening.txt");
+            using StreamWriter swSweetening = new(@"..\..\..\src\sweetening.txt");
 
             var f8 = drinks.GroupBy(d => d.Sweetener);
 

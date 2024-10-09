@@ -48,4 +48,44 @@ Mountain-Dew Pitch Black 0
 Coca-Cola Cherry Zero 0
 Fanta Lime 10
 Lipton Peach Tea 0
-7U
+7Up Cherry Free 0
+Sprite Mint 0
+Pepsi Twist Lemon 0
+Schweppes Ginger Ale Zero 5
+Tropicana Narancs-Lime 50
+Mountain-Dew Frost Bite 0
+Coca-Cola Vanilla Zero 0
+Fanta Passion Fruit 12
+Lipton Lemon Tea 8,4
+7Up Mojito Free 0
+Sprite Lemon 0
+Pepsi Twist Lime 0
+Schweppes Tonic Lime 5
+Tropicana Narancs-Grapefruit 50
+Mountain-Dew Ice 0
+Coca-Cola Energy Zero 0
+Fanta Grapefruit 10
+Lipton Raspberry Tea 0
+7Up Free Mint 0
+Sprite Zero Lime 0
+Pepsi Twist Cherry 0
+Schweppes Tonic Grapefruit 5
+Tropicana Narancs-Citrom 50
+Mountain-Dew Game Fuel 0
+Lipton Hibiscus Tea 0
+Fanta Lemon 12
+7Up Free Grapefruit 0
+Sprite Zero Cherry 0
+Pepsi Twist Mint 0
+Lipton Mint Tea 0
+Schweppes Tonic Lemon 5
+Tropicana Narancs-Kiwi 50
+7Up Free Lemon 0
+Sprite Zero Mint 0
+Fanta Apple 10
+Lipton Lemon-Mint Tea 0
+7Up Free Apple 0
+Lipton Peach-Ginger Tea 0
+Lipton Lemon-Ginger Tea 0
+Schweppes Tonic Apple 5
+Tropicana Narancs-Málna 50
