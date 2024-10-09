@@ -70,9 +70,6 @@ namespace SoftDrinksGUI
             {
                 swSweetening.WriteLine($"{item.Key}-{item.Count()}");
             }
-
-
-
         }
 
         private void btnBidSave_Click(object sender, RoutedEventArgs e)
@@ -80,11 +77,11 @@ namespace SoftDrinksGUI
             string searchedDrinkName = textboxSearchedDrinkName.Text;
 
             if (!string.IsNullOrWhiteSpace(searchedDrinkName) &&
-                drinks.Select(d => d.DrinkName.Split(" ")[0]).Contains(searchedDrinkName))
+                drinks.Any(d => d.BrandName.Contains(searchedDrinkName)))
             {
-                using StreamWriter swOffer = new(@"..\..\..\src\offer.txt", false);
+                using StreamWriter swOffer = new($@"..\..\..\src\offer{searchedDrinkName}.txt", false);
 
-                var drinksMatchingUserInput = drinks.Where(d => d.DrinkName.Split(" ")[0] == searchedDrinkName).ToList();
+                var drinksMatchingUserInput = drinks.Where(d => d.BrandName == searchedDrinkName).ToList();
 
                 foreach (var item in drinksMatchingUserInput)
                 {
@@ -93,11 +90,11 @@ namespace SoftDrinksGUI
 
                 textboxSearchedDrinkName.Clear();
 
-                MessageBox.Show($"{drinksMatchingUserInput.Count} db termék íródott be a fájlba, melyeknek átlagára: {drinksMatchingUserInput.Average(d => d.PricePerLiterInForint)} Ft.");
+                MessageBox.Show($"{drinksMatchingUserInput.Count} db termék íródott be a fájlba, melyeknek átlagára: {drinksMatchingUserInput.Average(d => d.PricePerLiterInForint)} Ft.", "siker", MessageBoxButton.OK, MessageBoxImage.Information);
             }
             else
             {
-                MessageBox.Show("Nincs ilyen üdítőnk. Kérjük, válasszon mást!");
+                MessageBox.Show("Nincs ilyen üdítőnk. Kérjük, válasszon mást!", "hiba", MessageBoxButton.OKCancel, MessageBoxImage.Warning);
             }
         }
 
@@ -114,7 +111,7 @@ namespace SoftDrinksGUI
                 || !int.TryParse(newProductPrice, out var _)
                 || !int.TryParse(newDrinkFruitContent, out var _))
             {
-                MessageBox.Show("Valamelyik adat hiányzik vagy nem helyes formátumú!", "Hiba");
+                MessageBox.Show("Valamelyik adat hiányzik vagy nem helyes formátumú!", "hiba", MessageBoxButton.OKCancel, MessageBoxImage.Warning);
             }
 
             else
@@ -123,7 +120,10 @@ namespace SoftDrinksGUI
 
                 swSoftDrinks.WriteLine($"{newDrinkName};{newSweetener};{newProductPrice};{newDrinkPackage};{newDrinkFruitContent};12");
 
-                MessageBox.Show("Az üdítő hozzáadásra került.");
+                MessageBox.Show("Az üdítő hozzáadásra került.", "siker", MessageBoxButton.OK, MessageBoxImage.Information);
+
+                //form resetelése
+                txtboxDrinkName.Clear();txtboxSweetener.Clear();txtboxPrice.Clear();txtboxFruitContent.Clear();txtboxPackage.Clear();
             }
 
         }

@@ -24,5 +24,7 @@ namespace SoftDrinksGUI
         public string PackageType { get; set; }
         public int FruitContentInPercentage { get; set; }
         public int PackageUnit { get; set; }
+
+        public string BrandName {get => DrinkName.Split(" ")[0];}
     }
 }

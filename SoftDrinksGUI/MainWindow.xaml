@@ -40,12 +40,16 @@
                 <Label x:Name="lblHowManyManufacturersToChooseFrom" Grid.Row="3"></Label>
                 <StackPanel Grid.Row="4" Orientation="Horizontal">
                     <Label Content="Gyártó:"></Label>
-                    <TextBox x:Name="textboxSearchedDrinkName" Width="300px" Margin="0,10,0,10"></TextBox>
+                    <TextBox x:Name="textboxSearchedDrinkName" Width="300px" Height="20px" Margin="0,10,0,10"></TextBox>
                 </StackPanel>
                 <Button Grid.Row="5" Content="Árajánlat készítése" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15px" Click="btnBidSave_Click"></Button>
             </Grid>
             <Grid Grid.Column="2">
-                <GroupBox BorderBrush="Black" BorderThickness="1px" Header="Új termék felvitele" Margin="0,0,0,30">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*"></RowDefinition>
+                    <RowDefinition Height="30px"></RowDefinition> <!-- alsó margin -->
+                </Grid.RowDefinitions>
+                <GroupBox BorderBrush="Black" BorderThickness="1px" Header="Új termék felvitele" Grid.Row="0">
                     <Grid>
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="1*"></ColumnDefinition>
@@ -69,7 +73,7 @@
                         <TextBox x:Name="txtboxPrice" Grid.Column="1" Grid.Row="2" VerticalAlignment="Center" Margin="5,0,5,5" Height="30"/>
                         <TextBox x:Name="txtboxPackage" Grid.Column="1" Grid.Row="3" VerticalAlignment="Center" Margin="5,0,5,5" Height="30"/>
                         <TextBox x:Name="txtboxFruitContent" Grid.Column="1" Grid.Row="4" VerticalAlignment="Center" Margin="5,0,5,5" Height="30"/>
-                        <Button Grid.Row="5" Grid.ColumnSpan="2" Content="Új üdítő felvétele" VerticalAlignment="Center" Margin="5,0,5,0" Click="NewProductButtonClick"/>
+                        <Button Grid.Row="5" Grid.ColumnSpan="2" Content="Új üdítő felvétele" VerticalAlignment="Center" Margin="5,0,5,0" Click="NewProductButtonClick" Height="30px"/>
                     </Grid>
                 </GroupBox>
             </Grid>
